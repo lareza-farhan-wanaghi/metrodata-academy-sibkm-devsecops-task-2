@@ -1,6 +1,6 @@
 # Metrodata Academy SIBKM DevSecOps Task 2: Developing A Program with Java
 
-## Objectives
+## Objective
 
 Develop a simple program that demonstrates the implementation of fundamental programming concepts and Object-Oriented Programming (OOP) principles. The program will cover the following topics:
 1. Data Types
@@ -15,7 +15,7 @@ Develop a simple program that demonstrates the implementation of fundamental pro
 10. Encapsulation
 11. Abstraction
 
-## Resolution
+## Solution
 
 ### 1. The Program
 The developed program is a command-line application that calculates the area and perimeter of a square. The program's flow is outlined below:
