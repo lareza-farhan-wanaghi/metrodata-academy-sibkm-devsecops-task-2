@@ -29,19 +29,19 @@ You can find the code of the program in the Main.java file.
 
 ### 2. Code Examples Covering the Topics
 
-#### 1. Data Types
+#### 2.1. Data Types
 In the code, a double data type is utilized to represent the side length of the square (line 5):
 ```java
 protected double side;
 ```
 
-#### 2. Variables
+#### 2.2. Variables
 A variable named "side" with a data type of double declared to store the side length (line 5):
 ```java
 protected double side;
 ```
 
-#### 3. Operators
+#### 2.3. Operators
 Assignment and arithmetic operators are employed within the code. An example of the assignment operator is used to assign a value to the "side" instance variable in line 15:
 ```java
 this.side = side;
@@ -51,7 +51,7 @@ Line 21 contains an example of an arithmetic operator that is used to calculate 
 return side * side;
 ```
 
-#### 4. Decision-making
+#### 2.4. Decision-making
 The program uses an if statement to determine whether to proceed or exit. For instance, lines 41-43 contain the following logic:
 ```java
 if (sideLength <= 0) {
@@ -59,7 +59,7 @@ if (sideLength <= 0) {
 }
 ```
 
-#### 5. Loops
+#### 2.5. Loops
 A while loop (lines 37-49) is utilized to continuously execute the program until the user inputs a value of 0 or less:
 ```java
 while (true) {
@@ -77,14 +77,14 @@ while (true) {
 }
 ```
 
-#### 6. Methods
+#### 2.6. Methods
 Abstract methods are defined within the abstract class "Shape" (lines 8-9):
 ```java
 public abstract double getArea();
 public abstract double getPerimeter();
 ```
 
-#### 7. Classes & Objects
+#### 2.7. Classes & Objects
 A class named "Square" is declared in lines 13-29. It represents a square shape and extends the "Shape" abstract class:
 ```java
 class Square extends Shape {
@@ -96,7 +96,7 @@ An object of the "Square" class is created in line 45:
 Square square = new Square(sideLength);
 ```
 
-#### 8. Inheritance
+#### 2.8. Inheritance
 In line 13, the class "Square" inherits from the "Shape" abstract class:
 ```java
 class Square extends Shape {
@@ -104,7 +104,7 @@ class Square extends Shape {
 }
 ```
 
-#### 9. Polymorphism
+#### 2.9. Polymorphism
 Polymorphism is demonstrated through method overriding. The `getArea` and `getPerimeter` methods are overridden in the "Square" class (lines 19-22 and 25-28, respectively):
 ```java
 @Override
@@ -120,13 +120,13 @@ public double getPerimeter() {
 }
 ```
 
-#### 10. Encapsulation
+#### 2.10. Encapsulation
 Encapsulation is exhibited in line 5, where the "side" variable is declared as protected, controlling access to it:
 ```java
 protected double side;
 ```
 
-#### 11. Abstraction
+#### 2.11. Abstraction
 The "Shape" abstract class (lines 4-10) serves as a blueprint for shapes like the square, defining abstract methods for calculating area and perimeter:
 ```java
 abstract class Shape {
