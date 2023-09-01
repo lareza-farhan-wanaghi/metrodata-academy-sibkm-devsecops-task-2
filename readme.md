@@ -1,4 +1,4 @@
-# Metrodata Academy SIBKM DevSecOps Task 2: Developing A Program with Java
+# Metrodata Academy SIBKM DevSecOps Task 2: Simple Java Program
 
 ## Problem Statement
 
