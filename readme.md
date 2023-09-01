@@ -30,23 +30,23 @@ You can find the code of the program in the Main.java file.
 ### 2. Code Examples Covering the Topics
 
 #### 1. Data Types
-In the code, a double data type is utilized to represent the side length of the square:
+In the code, a double data type is utilized to represent the side length of the square (line 5):
 ```java
 protected double side;
 ```
 
 #### 2. Variables
-A variable named "side" with a data type of double is declared to store the side length:
+A variable named "side" with a data type of double declared to store the side length (line 5):
 ```java
 protected double side;
 ```
 
 #### 3. Operators
-Assignment and arithmetic operators are employed within the code. An example of the assignment operator is used to assign a value to the "side" instance variable:
+Assignment and arithmetic operators are employed within the code. An example of the assignment operator is used to assign a value to the "side" instance variable in line 15:
 ```java
 this.side = side;
 ```
-An arithmetic operator is also used to calculate the square's area:
+Line 21 contains an example of an arithmetic operator that is used to calculate the square's area:
 ```java
 return side * side;
 ```
