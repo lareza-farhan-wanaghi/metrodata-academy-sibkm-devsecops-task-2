@@ -1,6 +1,6 @@
 # Metrodata Academy SIBKM DevSecOps Task 2: Developing A Program with Java
 
-## Objective
+## Problem Statement
 
 Develop a simple program that demonstrates the implementation of fundamental programming concepts and Object-Oriented Programming (OOP) principles. The program will cover the following topics:
 1. Data Types
